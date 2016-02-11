@@ -9,7 +9,7 @@
     <meta name="author" content="">
     <link rel="icon" href="http://getbootstrap.com/favicon.ico">
 
-    <title>Stettings</title>
+    <title>Goal Settings for Wooka</title>
 
     <!-- Bootstrap core CSS -->
     <link href="bootstrap.min.css" rel="stylesheet">
@@ -19,7 +19,7 @@
 
     <!-- Custom styles for this template -->
     <link href="jumbotron-narrow.css" rel="stylesheet">
-                
+        
     <link href="css/highlight.css" rel="stylesheet">
     <link href="css/bootstrap-switch.css" rel="stylesheet">
     <link href="css/main.css" rel="stylesheet">
@@ -37,15 +37,84 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
     <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-    <link href="css/custom.css" rel="stylesheet">
+  
+    <script>
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-43092768-1']);
+      _gaq.push(['_trackPageview']);
+      (function () {
+        var ga = document.createElement('script');
+        ga.type = 'text/javascript';
+        ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0];
+        s.parentNode.insertBefore(ga, s);
+      })();
+    </script>
+
     
-    <style>
-        .bootstrap-switch .bootstrap-switch-handle-on.bootstrap-switch-primary, .bootstrap-switch .bootstrap-switch-handle-off.bootstrap-switch-primary {
-    background-color: #3FA7B7;
-    background-image: none;
+    
+        <style>
+        .table-fixed thead {
+        width: 97%;
+        }
+        .table-fixed tbody {
+        height: 450px;
+        overflow-y: auto;
+        width: 100%;
+        }
+        .table-fixed thead, .table-fixed tbody, .table-fixed tr, .table-fixed td, .table-fixed th {
+        display: block;
+        }
+        .table-fixed tbody td, .table-fixed thead > tr> th {
+        float: left;
+        border-bottom-width: 0;
+        }
+        
+        .row {
+            margin-right: 150px;
+            margin-left: 150px;
+        }
+		
+		.nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover{
+	color:#FFF;
+	background-color:#3FA7B7;
+}
+
+a{
+    color:#3FA7B7;
+    text-decoration: none;
+}
+
+.panel-default>.panel-heading {
+    color: #fff;
+    background-color: #9C0;
+
+}
+
+.bootstrap-switch .bootstrap-switch-handle-on.bootstrap-switch-primary, .bootstrap-switch .bootstrap-switch-handle-off.bootstrap-switch-primary {
+	background-color:#3FA7B7;
+	background-image:none;
+	border-color:transparent;
+}
+
+.bootstrap-switch .bootstrap-switch-handle-on.bootstrap-switch-default, .bootstrap-switch .bootstrap-switch-handle-off.bootstrap-switch-default {
+	
+	background-color:#3FA7B7;
+	background-image:none;
+	border-color:transparent;
+	color:#FFF;
+	text-shadow:none;
+}
+
+.btn-default {
+    color: #fff;
+    background-color:#3FA7B7;
     border-color: transparent;
+	
 }
     </style>
+    
   </head>
 
   <body>
@@ -64,7 +133,7 @@
   <div class="panel panel-default">
         <div class="panel-heading">
           <h1>
-            Settings
+            Goal Settings
           </h1>
         </div>
 
@@ -73,27 +142,25 @@
           <table class="table">
     <thead>
       <tr>
-        <th class="col-xs-11">Manage your preferences</th>
         <th class="col-xs-1"></th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td class="col-xs-11">Notifications</td>
-        <td class="col-xs-1"><input class="form-control" type="checkbox" checked></td>
+        <td class="col-xs-11">Set Weight Loss Goal</td>
+        <td class="col-xs-1"><input  class="form-control" placeholder="Lbs" aria-describedby="basic-addon1"></td>
       </tr>
     </tbody>
-    <tbody>
+        <tbody>
       <tr>
-        <td class="col-xs-11">Tips</td>
-        <td class="col-xs-1"><input class="form-control" type="checkbox" checked></td>
+        <td class="col-xs-11">Set Weight Gain Goal</td>
+        <td class="col-xs-1"><input type="text" class="form-control" placeholder="Lbs" aria-describedby="basic-addon1"></td>
       </tr>
     </tbody>
-    <tbody>
+        <tbody>
       <tr>
-        <td class="col-xs-11" style="padding-top: 14px;">Goal Settings</td>
-        <td class="col-xs-1"><a href="goalsettings.html"><span class="glyphicon glyphicon-chevron-right" style=" padding-left: 55px; font-size: 30px;"></span></a>
-      </td>
+        <td class="col-xs-11">Pregnant Mode</td>
+        <td class="col-xs-1"><input class="form-control" type="checkbox" checked></td>
       </tr>
     </tbody>
   </table>
@@ -102,7 +169,14 @@
   </div>
 
       <footer class="footer">
-        <center><div class="alert alert-info" role="alert"> Get an apple today</div></center>
+	   <table>
+    <tbody>
+      <tr>
+      <td class="col-xs-11"><a href="set.html"><button type="button" class="btn btn-default">Go Back</button></a></</td>
+      <td class="col-xs-1"><a href="index.html"><button type="button" class="btn btn-default">Ready!</button></td>
+ </tr>
+    </tbody>
+    </table>
       </footer>
 
     </div> <!-- /container -->
