@@ -1,0 +1,107 @@
+    
+                /* ------ Our Custom CSS ------ */
+
+    .nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover{
+            color:#FFF;
+            background-color:#3FA7B7;
+    }  
+    a{
+        color:#3FA7B7;
+        text-decoration: none;
+    }
+    
+    .jumbotron .h1, .jumbotron h1 {
+        color:#fff;
+    }
+    
+    .jumbotron{
+    
+            background-color:#9C0;
+            
+            /* ------------ Color Alternative -----------*/
+            /*background-color: #51E41D;*/           
+    }
+    
+    .alert-info {
+        color: #fff;
+        background-color:#6FBCAF;
+        border-color: #bce8f1;
+    }
+    
+    h4{
+            color:#6FBCAF;
+            text-align:center;
+    }
+    
+/* ------ index custom end ------*/
+
+    .table-fixed thead {
+        width: 97%;
+        }
+    .table-fixed tbody {
+        height: 450px;
+        overflow-y: auto;
+        width: 100%;
+        }
+    .table-fixed thead, .table-fixed tbody, .table-fixed tr, .table-fixed td, .table-fixed th {
+        display: block;
+        }
+    .table-fixed tbody td, .table-fixed thead > tr> th {
+        float: left;
+        border-bottom-width: 0;
+        }
+        
+    .row {
+         margin-right: 150px;
+         margin-left: 150px;
+        }
+    .panel-default>.panel-heading {
+        background-color: #9C0;
+        /* border-color: #ddd; */
+        color: white;
+    }
+
+    .nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover {
+        color: #FFF;
+        background-color: #3FA7B7;
+    }
+    
+/* tips end */
+
+        .table-fixed thead {
+        width: 97%;
+        }
+        .table-fixed tbody {
+        height: 450px;
+        overflow-y: auto;
+        width: 100%;
+        }
+        .table-fixed thead, .table-fixed tbody, .table-fixed tr, .table-fixed td, .table-fixed th {
+        display: block;
+        }
+        .table-fixed tbody td, .table-fixed thead > tr> th {
+        float: left;
+        border-bottom-width: 0;
+        }
+        
+        .row {
+            margin-right: 150px;
+            margin-left: 150px;
+        }
+        
+        .nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover {
+    color: #FFF;
+    background-color: #3FA7B7;
+}
+
+    .panel-default>.panel-heading {
+            background-color: #9C0;
+            /* border-color: #ddd; */
+            color: white;
+}
+
+.alert-info {
+    color: #fff;
+    background-color: #6FBCAF;
+    border-color: #bce8f1;
+}
